@@ -6,6 +6,12 @@ bin-release/
 
 # Other files and folders
 .settings/
+*.code-workspace
+.code-workspace
+.pxm
+.pxd
+.mov
+.mp4
 
 # Executables
 *.swf
