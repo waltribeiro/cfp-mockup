@@ -18,6 +18,7 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
     <!-- Core theme CSS (includes Bootstrap)-->
     <link href="css/styles.css" rel="stylesheet" />
+    <link href="css/custom_styles.css" rel="stylesheet" />
     <!-- videojs -->
     <link href="dist/vidbg.css" rel="stylesheet" type="text/css">
 </head>
@@ -35,15 +36,42 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav text-uppercase ml-auto">
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#home">Home</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#slack">Slack</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#projects">Projects</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger"
-                            href="https://www.meetup.com/Code-for-Philly">Meetups</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#donate"><span
-                                style="color:greenyellow">Donate</span></a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#team">Team</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#contact">Contact</a></li>
+
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Get Involved
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item nav-link" href="https://codeforphilly.org/projects">Active Projects</a>
+                            <a class="dropdown-item nav-link" href="https://codeforphilly.org/pages/project_guidelines">Projects 101</a>
+                            <a class="dropdown-item nav-link" href="https://codeforphilly.org/pages/hack_night_program_details/">Weekly Meetups</a>
+                            <a class="dropdown-item nav-link" href="https://codeforphilly.org/pages/hackathons">Launchpads &amp; Hackathons</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Community/Connect
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item nav-link" href="https://codeforphilly.org/chat" target="_blank">Chat <small>(Slack)</small></a>
+                            <a class="dropdown-item nav-link" href="http://forum.codeforphilly.org/login" target="_blank">Forum <small>(Discussion)</small></a>
+                            <a class="dropdown-item nav-link" href="https://codeforphilly.org/members">Member Directory</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            About
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item nav-link" href="https://codeforphilly.org/mission">Mission</a>
+                            <a class="dropdown-item nav-link" href="https://codeforphilly.org/pages/code_of_conduct/">Code of Conduct</a>
+                            <a class="dropdown-item nav-link" href="https://codeforphilly.org/pages/leadership/">Organizing Team</a>
+                            <a class="dropdown-item nav-link" href="https://codeforphilly.org/pages/leadership-support_team_open_positions/">Join the Organizing Team</a>
+                            <a class="dropdown-item nav-link" href="https://codeforphilly.org/contact">Contact Us</a>
+                        </div>
+                    </li>
+
                 </ul>
             </div>
         </div>
@@ -99,9 +127,11 @@
 
 
 
-    <!-- Masthead-->
 
-    <!-- 
+        <!-- Masthead-->
+        
+<!-- 
+
             
         <header class="masthead">
             <div class="container"> -->
@@ -609,13 +639,13 @@ NOTES:         DEVELOPER, NON PROFIT, VOLUNTEER
                     <a href="#!"><img class="img-fluid d-block mx-auto" src="" alt="" /></a>
                 </div> -->
                 <div class="col-md-3 col-sm-6 my-3">
-                    <a href="#!"><img class="img-fluid d-block mx-auto" src="assets/img/logos/indy-hall.jpg"
-                            alt="" /></a>
+
+                    <a href="https://new.indyhall.org/" target="_blank" rel="noopener"><img class="img-fluid d-block mx-auto" src="assets/img/logos/indy-hall.jpg" alt="indie-hall logo" /></a>
                 </div>
 
                 <div class="col-md-3 col-sm-6 my-3">
-                    <a href="#!"><img class="img-fluid d-block mx-auto" src="assets/img/logos/compass-red.jpg"
-                            alt="" /></a>
+                    <a href="https://www.compassred.com/" target="_blank" rel="noopener"><img class="img-fluid d-block mx-auto" src="assets/img/logos/compass-red.jpg" alt="compass-red logo" /></a>
+
                     <br>
                     <a href="https://codeforphilly.org/projects">Active Projects</a>
                     <br>
@@ -627,8 +657,9 @@ NOTES:         DEVELOPER, NON PROFIT, VOLUNTEER
                 </div>
 
                 <div class="col-md-3 col-sm-6 my-3">
-                    <a href="#!"><img class="img-fluid d-block mx-auto" src="assets/img/logos/code-for-america.jpg"
-                            alt="" /></a>
+
+                    <a href="https://www.codeforamerica.org/" target="_blank" rel="noopener"><img class="img-fluid d-block mx-auto" src="assets/img/logos/code-for-america.jpg" alt="code for america logo" /></a>
+
                     <br>
                     <a href="https://codeforphilly.org/pages/mission">Mission</a>
                     <br>
@@ -640,7 +671,7 @@ NOTES:         DEVELOPER, NON PROFIT, VOLUNTEER
                 </div>
 
                 <div class="col-md-3 col-sm-6 my-3">
-                    <a href="#!"><img class="img-fluid d-block mx-auto" src="assets/img/logos/att.jpg" alt="" /></a>
+                    <a href="https://www.att.com/" target="_blank" rel="noopener"><img class="img-fluid d-block mx-auto" src="assets/img/logos/att.jpg" alt="att logo" /></a>
                     <br>
                     <a href="https://codeforphilly.org/chat">Slack</a>
                     <br>
