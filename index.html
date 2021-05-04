@@ -71,20 +71,11 @@
                             <a class="dropdown-item nav-link" href="https://codeforphilly.org/contact">Contact Us</a>
                         </div>
                     </li>
-
-                    <li class="nav-item show">
-                        <a class="nav-link " href="https://codeforphilly.org/login?return=%2F" id="navbarDropdown" role="button" aria-haspopup="false" aria-expanded="false">
-                            Login
-                        </a>
-                       
+                    <li class="nav-item dropdown">
+                        <input class="form-control mr-sm-2" id="js-site-search" type="search" placeholder="Search" aria-label="Search">
+                        <ul class="dropdown-menu search" id = "navbarSearchBarDropdown" aria-labelledby="navbarDropdown">
+                        </ul>
                     </li>
-                    <li class="nav-item show">
-                        <a class="nav-link " href="https://codeforphilly.org/register?return=%2F" id="navbarDropdown" role="button" aria-haspopup="false" aria-expanded="false">
-                            Signup
-                        </a>
-                       
-                    </li>
-
                 </ul>
             </div>
         </div>
@@ -162,6 +153,106 @@
 
 -->
 
+
+
+    <!-- Portfolio Grid-->
+    
+    
+    
+    <section class="page-section bg-light" id="projects">
+        <div class="container">
+            <div class="text-center">
+                <h2 class="section-heading text-uppercase">Join a Project</h2>
+                <!-- <h3 class="section-subheading text-muted">Look around!</h3> -->
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-sm-6 mb-4">
+                    <div class="portfolio-item">
+                        <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x text-danger"></i></div>
+                            </div>
+                            <img class="img-fluid" src="assets/img/portfolio/01-thumbnail.jpg" alt="" />
+                        </a>
+                        <div class="portfolio-caption">
+                            <div class="portfolio-caption-heading">PHLASK</div>
+                            <div class="portfolio-caption-subheading text-muted">Access to Public Water</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 mb-4">
+                    <div class="portfolio-item">
+                        <a class="portfolio-link" data-toggle="modal" href="#portfolioModal2">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x text-danger"></i></div>
+                            </div>
+                            <img class="img-fluid" src="assets/img/portfolio/paws.jpg" alt="" />
+                        </a>
+                        <div class="portfolio-caption">
+                            <div class="portfolio-caption-heading">PAWS</div>
+                            <div class="portfolio-caption-subheading text-muted">Homes for all Pets</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 mb-4">
+                    <div class="portfolio-item">
+                        <a class="portfolio-link" data-toggle="modal" href="#portfolioModal3">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x text-danger"></i></div>
+                            </div>
+                            <img class="img-fluid" src="assets/img/portfolio/pp.jpg" alt="" />
+                        </a>
+                        <div class="portfolio-caption">
+                            <div class="portfolio-caption-heading">Prevention Point</div>
+                            <div class="portfolio-caption-subheading text-muted">Needle Exchange</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
+                    <div class="portfolio-item">
+                        <a class="portfolio-link" data-toggle="modal" href="#portfolioModal4">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x text-danger"></i></div>
+                            </div>
+                            <img class="img-fluid" src="assets/img/portfolio/plse.jpg" alt="" />
+                        </a>
+                        <div class="portfolio-caption">
+                            <div class="portfolio-caption-heading">PLSE</div>
+                            <div class="portfolio-caption-subheading text-muted">Legal Support and Expungement</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 mb-4 mb-sm-0">
+                    <div class="portfolio-item">
+                        <a class="portfolio-link" data-toggle="modal" href="#portfolioModal5">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x text-danger"></i></div>
+                            </div>
+                            <img class="img-fluid" src="assets/img/portfolio/bail.png" alt="" />
+                        </a>
+                        <div class="portfolio-caption">
+                            <div class="portfolio-caption-heading">Philly Bailfund</div>
+                            <div class="portfolio-caption-subheading text-muted">Bail Support</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <div class="portfolio-item">
+                        <a class="portfolio-link" data-toggle="modal" href="#portfolioModal6">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x text-danger"></i></div>
+                            </div>
+                            <img class="img-fluid" src="assets/img/portfolio/code-for-philly.jpg" alt="" />
+                        </a>
+                        <div class="portfolio-caption">
+                            <div class="portfolio-caption-heading">CfP Website Design</div>
+                            <div class="portfolio-caption-subheading text-muted">Homepage</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
 
 
@@ -374,104 +465,6 @@
 
 
 
-    <!-- Portfolio Grid-->
-
-
-
-    <section class="page-section bg-light" id="projects">
-        <div class="container">
-            <div class="text-center">
-                <h2 class="section-heading text-uppercase">Current Projects</h2>
-                <!-- <h3 class="section-subheading text-muted">Look around!</h3> -->
-            </div>
-            <div class="row">
-                <div class="col-lg-4 col-sm-6 mb-4">
-                    <div class="portfolio-item">
-                        <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
-                            <div class="portfolio-hover">
-                                <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x text-danger"></i></div>
-                            </div>
-                            <img class="img-fluid" src="assets/img/portfolio/01-thumbnail.jpg" alt="" />
-                        </a>
-                        <div class="portfolio-caption">
-                            <div class="portfolio-caption-heading">PHLASK</div>
-                            <div class="portfolio-caption-subheading text-muted">Access to Public Water</div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-sm-6 mb-4">
-                    <div class="portfolio-item">
-                        <a class="portfolio-link" data-toggle="modal" href="#portfolioModal2">
-                            <div class="portfolio-hover">
-                                <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x text-danger"></i></div>
-                            </div>
-                            <img class="img-fluid" src="assets/img/portfolio/paws.jpg" alt="" />
-                        </a>
-                        <div class="portfolio-caption">
-                            <div class="portfolio-caption-heading">PAWS</div>
-                            <div class="portfolio-caption-subheading text-muted">Homes for all Pets</div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-sm-6 mb-4">
-                    <div class="portfolio-item">
-                        <a class="portfolio-link" data-toggle="modal" href="#portfolioModal3">
-                            <div class="portfolio-hover">
-                                <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x text-danger"></i></div>
-                            </div>
-                            <img class="img-fluid" src="assets/img/portfolio/pp.jpg" alt="" />
-                        </a>
-                        <div class="portfolio-caption">
-                            <div class="portfolio-caption-heading">Prevention Point</div>
-                            <div class="portfolio-caption-subheading text-muted">Needle Exchange</div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
-                    <div class="portfolio-item">
-                        <a class="portfolio-link" data-toggle="modal" href="#portfolioModal4">
-                            <div class="portfolio-hover">
-                                <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x text-danger"></i></div>
-                            </div>
-                            <img class="img-fluid" src="assets/img/portfolio/plse.jpg" alt="" />
-                        </a>
-                        <div class="portfolio-caption">
-                            <div class="portfolio-caption-heading">PLSE</div>
-                            <div class="portfolio-caption-subheading text-muted">Legal Support and Expungement</div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-sm-6 mb-4 mb-sm-0">
-                    <div class="portfolio-item">
-                        <a class="portfolio-link" data-toggle="modal" href="#portfolioModal5">
-                            <div class="portfolio-hover">
-                                <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x text-danger"></i></div>
-                            </div>
-                            <img class="img-fluid" src="assets/img/portfolio/bail.png" alt="" />
-                        </a>
-                        <div class="portfolio-caption">
-                            <div class="portfolio-caption-heading">Philly Bailfund</div>
-                            <div class="portfolio-caption-subheading text-muted">Bail Support</div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <div class="portfolio-item">
-                        <a class="portfolio-link" data-toggle="modal" href="#portfolioModal6">
-                            <div class="portfolio-hover">
-                                <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x text-danger"></i></div>
-                            </div>
-                            <img class="img-fluid" src="assets/img/portfolio/code-for-philly.jpg" alt="" />
-                        </a>
-                        <div class="portfolio-caption">
-                            <div class="portfolio-caption-heading">CfP Website Design</div>
-                            <div class="portfolio-caption-subheading text-muted">Homepage</div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
     <!-- About-->
     <!-- <section class="page-section" id="about">
             <div class="container">
@@ -1075,6 +1068,8 @@ NOTES:         DEVELOPER, NON PROFIT, VOLUNTEER
     <script src="assets/mail/contact_me.js"></script>
     <!-- Core theme JS-->
     <script src="js/scripts.js"></script>
+    <script src="js/debounce.js"></script>
+    <script src="js/search.js"></script>
     <!-- Vide -->
     <script src="js/jquery.vide.js"></script>
     <!-- videojs -->
